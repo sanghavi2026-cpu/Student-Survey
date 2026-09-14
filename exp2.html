@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Survey</title>
+</head>
+
+<body>
+
+    <h1>STUDENT SURVEY</h1>
+
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="branch">Branch:</label>
+        <select id="branch" name="branch">
+            <option value="">Select Branch</option>
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="it">IT</option>
+            <option value="aiml">AI/ML</option>
+        </select>
+        <br><br>
+
+        <label for="year">Year:</label>
+        <select id="year" name="year">
+            <option value="">Select Year</option>
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th Year</option>
+        </select>
+        <br><br>
+
+        <label>Subjects:</label>
+        <br>
+
+        <input type="checkbox" id="maths" name="subject" value="maths">
+        <label for="maths">Engineering Mathematics</label>
+        <br>
+
+        <input type="checkbox" id="physics" name="subject" value="physics">
+        <label for="physics">Engineering Physics</label>
+        <br>
+
+        <input type="checkbox" id="ef" name="subject" value="ef">
+        <label for="ef">Electronics Fundamentals (EF)</label>
+        <br>
+
+        <input type="checkbox" id="chemistry" name="subject" value="chemistry">
+        <label for="chemistry">Engineering Chemistry</label>
+        <br><br>
+
+        <label>How do you like your subjects?</label>
+        <br>
+
+        <input type="radio" id="veryinteresting" name="rating" value="veryinteresting">
+        <label for="veryinteresting">Very Interesting</label>
+        <br>
+
+        <input type="radio" id="interesting" name="rating" value="interesting">
+        <label for="interesting">Interesting</label>
+        <br>
+
+        <input type="radio" id="average" name="rating" value="average">
+        <label for="average">Average</label>
+        <br>
+
+        <input type="radio" id="difficult" name="rating" value="difficult">
+        <label for="difficult">Difficult</label>
+        <br><br>
+
+        <label for="suggestion">Any Suggestions:</label>
+        <br>
+
+        <textarea id="suggestion" name="suggestion" rows="5" cols="40"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
